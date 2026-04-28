@@ -13,3 +13,4 @@ def show_tasks():
     def add_task(name):
         tasks.append(name)
         print(f"Added: {name}")
+
