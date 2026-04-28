@@ -10,4 +10,7 @@ def show_tasks():
 
     tasks=["Buy groceries"] #edit this line
     
-        
+   #Next line is for delete-tasks branch
+def delete_task(index):
+    done= tasks.pop(index-1)
+    print(f"Removed task: {done}")
