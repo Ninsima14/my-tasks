@@ -9,5 +9,6 @@ def show_tasks():
         #Adding a line to the tasks.py
 
     tasks=["Buy groceries"] #edit this line
-    
-        
+    def add_task(name):
+        tasks.append(name)
+        print(f"Added: {name}")
