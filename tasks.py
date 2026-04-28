@@ -9,8 +9,7 @@ def show_tasks():
         #Adding a line to the tasks.py
 
     tasks=["Buy groceries"] #edit this line
-    
-   #Next line is for delete-tasks branch
-def delete_task(index):
-    done= tasks.pop(index-1)
-    print(f"Removed task: {done}")
+
+    def add_task(name):
+        tasks.append(name)
+        print(f"Added: {name}")
