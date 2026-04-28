@@ -14,3 +14,6 @@ def show_tasks():
         tasks.append(name)
         print(f"Added: {name}")
 
+def delete_task(index):
+    done = tasks.pop(index - 1)
+    print(f"Removed: {done}")
